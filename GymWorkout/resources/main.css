@@ -1,0 +1,84 @@
+﻿body {
+    font-family: cursive;
+    background: linear-gradient(to bottom, rgb(72, 0, 255) 0%, rgb(0, 255, 33));
+    /*font-size:20px;*/
+}
+
+#ImageMap1 {
+    float:left;
+    margin-top:0px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-right:10px;
+    width: 100%;    
+}
+
+/*.pText {
+    
+    font-size : 10px;
+}*/
+
+#pnlImageMap {
+    float: left;
+    padding-left:10px;
+    padding-top:10px;
+    margin:auto;
+    display : inline;
+    width : 50%;
+    
+    
+}
+
+#pnlTextMap{
+    
+    margin:auto;   
+    padding-left :20px;
+    display:inline-block;
+    height: 200px;    
+    width: 50%;
+
+}
+
+@media screen and (min-width:900px){
+  
+    body{
+        background: linear-gradient(to bottom, rgb(72, 0, 255) 0%, rgb(0, 255, 33)) fixed no-repeat;         
+}
+
+
+    #pnlTextMap{
+    float:left;
+    height:300px;
+    width:367px;
+    /*font-size:18px;*/
+    margin-left : 10px;
+    padding-bottom:30px;
+    display : inline;
+    
+}
+
+    #pnlImageMap {    
+    margin-top: 10px;
+    padding-top:100px;
+    padding-left:20px;
+    display : inline;
+        
+}
+
+
+}
+
+@media (min-width:790px) {
+    #pnlTextMap {
+        float : left;
+    }
+}
+
+@media (min-width:1006px) {
+    #pnlTextMap{
+        padding-left: 10px;
+        padding-bottom : 30px;
+        float: left;
+    }
+
+}
